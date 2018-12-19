@@ -1,0 +1,41 @@
+{
+  "name": "simple-server-node",
+  "version": "0.1.0",
+  "description": "A simple Expressjs Web server on balena",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balena-io-projects/simple-server-node.git"
+  },
+  "keywords": [
+    "webserver",
+    "nodejs",
+    "expressjs"
+  ],
+  "author": "Kai Curry <kai@cape.io>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/balena-io-projects/simple-server-node/issues"
+  },
+  "homepage": "https://github.com/balena-io-projects/simple-server-node#readme",
+  "dependencies": {
+    "app-root-path": "^2.1.0",
+    "nmea0183-to-nmea0183": "cape-io/nmea0183-to-nmea0183",
+    "signalk-alarm-silencer": "^1.2.1",
+    "signalk-anchoralarm-plugin": "^1.8.0",
+    "signalk-cloud": "^1.7.0",
+    "signalk-derived-data": "^1.20.1",
+    "signalk-net-relay": "^1.1.0",
+    "signalk-server": "https://github.com/webmasterkai/signalk-server-node#config-updates",
+    "signalk-simple-notifications": "^1.2.2",
+    "signalk-stainless-lobster-fridge": "^1.6.1",
+    "signalk-switch-automation": "^1.1.1",
+    "signalk-to-influxdb": "^1.4.0",
+    "signalk-venus-plugin": "^1.10.0",
+    "signalk-wilhelmsk-plugin": "^1.0.1"
+  }
+}
