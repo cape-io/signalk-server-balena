@@ -11,6 +11,7 @@ services:
     network_mode: host
     volumes:
       - 'resin-data:/data'
+    privileged: true # required for INITSYSTEM on.
     labels:
       io.balena.features.dbus: '1'
       io.balena.features.balena-api: '1'
