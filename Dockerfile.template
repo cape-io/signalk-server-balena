@@ -12,6 +12,7 @@ RUN apt-get update && apt-get install -yq \
   curl git build-essential dialog libnss-mdns python \
   avahi-utils libavahi-compat-libdnssd-dev xsltproc && \
   apt-get clean && rm -rf /var/lib/apt/lists/*
+  # sudo wget bash avahi-daemon avahi-discover 
 
 # Enable systemd init system in container. Is this required?
 ENV INITSYSTEM on
